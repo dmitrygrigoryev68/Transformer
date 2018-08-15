@@ -4,12 +4,13 @@ public class Transform {
             String worlds[] = sentence.split(" ");
             String finalString = "";
             for (int i = 0; i < worlds.length; i++) {
-                if ((worlds[i].length() == numOfChar)&&(checkSymbols(worlds[i]))) {
+                if ((worlds[i].length() == numOfChar) && (checkSymbols(worlds[i]))) {
                     finalString = finalString + " " + worlds[i].toUpperCase();
                 }
             }
-            if (finalString == "")
-               {finalString = "No result";}
+            if (finalString.equals("")) {
+                finalString = "No result";
+            }
             return finalString;
         }
 
@@ -23,4 +24,5 @@ public class Transform {
             }
             return true;
         }
-    }
+
+}
