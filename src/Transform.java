@@ -1,11 +1,11 @@
 public class Transform {
 
         public String transform(String sentence, int numOfChar) {
-            String words[] = sentence.split(" ");
+            String worlds[] = sentence.split(" ");
             String finalString = "";
-            for (int i = 0; i < words.length; i++) {
-                if ((words[i].length() == numOfChar)&&(checkSymbols(words[i]))) {
-                    finalString = finalString + " " + words[i].toUpperCase();
+            for (int i = 0; i < worlds.length; i++) {
+                if ((worlds[i].length() == numOfChar)&&(checkSymbols(worlds[i]))) {
+                    finalString = finalString + " " + worlds[i].toUpperCase();
                 }
             }
             if (finalString == "")
