@@ -13,9 +13,11 @@ public class AppTransformer {
 
         AbstractTransformer trans1 = new ToLowerCaseTransformer();
 
+        AbstractTransformer trans3 = new ToStars();
+
         Transform t = new Transform();
 
-        System.out.println(t.transform(sentence,trans1));
+        System.out.println(t.transform(sentence,trans3 ));
 
 
 
