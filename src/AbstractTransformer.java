@@ -1,3 +1,5 @@
+
+
 public abstract class AbstractTransformer {
 
     public abstract boolean checkLenght(String str);

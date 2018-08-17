@@ -4,12 +4,12 @@ public class Transform {
             String words[] = sentence.split(" ");
             String finalString = "";
                 for (int i = 0; i < words.length; i++) {
-                if ((transformer.checkLenght(words[i])) && (checkSymbols(words[i]))) {
+
+                  //  System.out.println(words[i]);
+                if ((transformer.checkLenght(words[i]))) {
                     words[i] = transformer.transformString(words[i]);
+                    finalString = finalString  + words[i] + " ";
                 }
-            }
-            if (finalString.equals("")) {
-                finalString = "No result";
             }
             return finalString;
         }
