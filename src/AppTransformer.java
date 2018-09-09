@@ -1,30 +1,32 @@
-
 public class AppTransformer {
 
     public static void main(String[] args) {
 
-
-
-        String sentence  = "Ajsh jFTd =yf &&& LLL   #$5678N psl 9r8e sk tyf *UGHF 2cn 876 vbhgfdrtfd  ";
-        String sentence1 = "Ajsh jFTd =yf &&& LLLd   #$5678N psl 9r8e sk tyf *UGHF 2cn 876 vbhgfdrtfd  ";
-
-
-        AbstractTransformer trans = new ToUpperCaseTransformer();
-
-        AbstractTransformer trans1 = new ToLowerCaseTransformer();
-
-        AbstractTransformer trans3 = new ToStars();
+        String sentence = "Ajsh jFTd yf bbb LLL kRR pSl DGFF sk  vbu okjvgfxfi";
 
         Transform t = new Transform();
 
-        System.out.println(t.transform(sentence,trans3 ));
+        CheckLenght chl = str -> str.length() == 4;
+        CheckLenght ch2 = str -> str.length() == 3;
+        CheckLenght ch3 = str -> str.length() == 9;
+        TransformString tr1 = str -> str = str.toUpperCase();
+        TransformString tr2 = str -> str = str.toLowerCase();
+        TransformString tr3 = str -> str = "*************";
 
-
-
-       // System.out.println(trans.transformString(sentence));
-
-
-      //   System.out.println(trans1.transformString(sentence));
-
+        t.print(sentence, chl, tr1);
+        t.print(sentence, ch2, tr2);
+        t.print(sentence, ch3, tr3);
+        t.print(sentence, ch3, tr1);
+        t.print(sentence, ch3, tr2);
     }
 }
+
+
+
+
+
+
+
+
+
+
