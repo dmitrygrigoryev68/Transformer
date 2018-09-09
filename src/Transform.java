@@ -4,7 +4,7 @@ import java.util.function.Predicate;
 
 public class Transform {
 
-    public String transform(String sentence, Predicate<String> ch, Function<String, String> tr) {
+    private String transform(String sentence, Predicate<String> ch, Function<String, String> tr) {
         String words[] = sentence.split(" ");
         String finalString = "";
 
