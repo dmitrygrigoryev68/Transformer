@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7d7ffe6-7e5f-426a-ae42-4c79365b15b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2018_08_13_Serg_Transformer/AbstractTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2018_08_13_Serg_Transformer/AppTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2018_08_13_Serg_Transformer/AppTransformer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2018_08_13_Serg_Transformer/ToLowerCaseTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2018_08_13_Serg_Transformer/ToStars.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2018_08_13_Serg_Transformer/ToUpperCaseTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2018_08_13_Serg_Transformer/Transform.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2018_08_13_Serg_Transformer/Transform.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractTransformer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToLowerCaseTransformer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToStars.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToUpperCaseTransformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheckLenght.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheckLenght.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Transform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Transform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TransformString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TransformString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,12 +67,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="java" value="1463" />
+          <entry key="java" value="1660" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1463" />
+          <entry key="JAVA" value="1660" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
@@ -105,11 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppTransformer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="38">
+              <caret line="2" column="10" selection-start-line="2" selection-end-line="2" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -117,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Transform.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,8 +117,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CheckLenght.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="57">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#95#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,7 +130,10 @@
         <entry file="file://$PROJECT_DIR$/src/TransformString.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#101#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -187,8 +181,8 @@
         <option value="$PROJECT_DIR$/src/InterfaceTransformer.java" />
         <option value="$PROJECT_DIR$/src/TLC.java" />
         <option value="$PROJECT_DIR$/src/AbsClass.java" />
-        <option value="$PROJECT_DIR$/src/CheckLenght.java" />
         <option value="$PROJECT_DIR$/src/TransformString.java" />
+        <option value="$PROJECT_DIR$/src/CheckLenght.java" />
         <option value="$PROJECT_DIR$/src/AppTransformer.java" />
         <option value="$PROJECT_DIR$/src/Transform.java" />
       </list>
@@ -237,7 +231,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="generate hashcode&#9;PSI&#9;JAVA://com.sun.xml.internal.ws.policy.PolicyMapKeyHandler#generateHashCode&#10;generate&#9;ACTION&#9;Generate" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536503343142" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536510350605" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -483,34 +477,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheckLenght.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TransformString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CheckLenght.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppTransformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" column="10" selection-start-line="2" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Transform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="37" />
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

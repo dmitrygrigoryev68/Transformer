@@ -1,3 +1,6 @@
+import java.util.function.Predicate;
+import java.util.function.Function;
+
 public class AppTransformer {
 
     public static void main(String[] args) {
@@ -6,12 +9,14 @@ public class AppTransformer {
 
         Transform t = new Transform();
 
-        CheckLenght chl = str -> str.length() == 4;
-        CheckLenght ch2 = str -> str.length() == 3;
-        CheckLenght ch3 = str -> str.length() == 9;
-        TransformString tr1 = str -> str = str.toUpperCase();
-        TransformString tr2 = str -> str = str.toLowerCase();
-        TransformString tr3 = str -> str = "*************";
+        Predicate<String> chl = str -> str.length() == 3;
+        Predicate<String> ch2 = str -> str.length() == 4;
+        Predicate<String> ch3 = str -> str.length() == 9;
+
+        Function<String, String> tr1 = str -> str = str.toUpperCase();
+        Function<String, String> tr2 = str -> str = str.toLowerCase();
+        Function<String, String> tr3 = str -> str = "***************";
+
 
         t.print(sentence, chl, tr1);
         t.print(sentence, ch2, tr2);

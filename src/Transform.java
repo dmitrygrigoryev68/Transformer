@@ -1,12 +1,16 @@
+import java.util.function.Function;
+import java.util.function.Predicate;
+
+
 public class Transform {
 
-    public String transform(String sentence, CheckLenght ch, TransformString tr) {
+    public String transform(String sentence, Predicate<String> ch, Function<String, String> tr) {
         String words[] = sentence.split(" ");
         String finalString = "";
 
         for (int i = 0; i < words.length; i++) {
-            if (ch.checkLenght(words[i])) {
-                words[i] = tr.transformString(words[i]);
+            if (ch.test(words[i])) {
+                words[i] = tr.apply(words[i]);
                 finalString = finalString + words[i] + " ";
             }
         }
@@ -16,7 +20,7 @@ public class Transform {
         return finalString;
     }
 
-    public void print(String s, CheckLenght ch, TransformString tr) {
+    public void print(String s, Predicate<String> ch, Function<String, String> tr) {
         System.out.println(transform(s, ch, tr));
     }
 }
