@@ -8,7 +8,7 @@ public class Transform {
 
     private String transform(String sentence, Predicate<String> checkWordLenght, Function<String, String> trnsfornationMethod) {
         String words[] = sentence.split(" ");
-        final String finalString = "";
+        String finalString = "";
         List<String> list = Arrays.asList(words);
         return list
                 .stream()
