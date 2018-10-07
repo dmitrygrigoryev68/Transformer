@@ -6,14 +6,13 @@ import java.util.stream.Collectors;
 public class Transform {
 
 
-    private String transform(String sentence, Predicate<String> checkWordLenght, Function<String, String> trnsfornationMethod) {
+    private String transform(String sentence, Predicate<String> checkWordLenght, Function<String, String> transfornationMethod) {
         String words[] = sentence.split(" ");
-        String finalString = "";
         List<String> list = Arrays.asList(words);
         return list
                 .stream()
-                .filter(s -> checkWordLenght.test(s))
-                .map(s -> trnsfornationMethod.apply(s) + finalString)
+                .filter(checkWordLenght)
+                .map(s -> transfornationMethod.apply(s))
                 .collect(Collectors.joining(", "));
     }
 

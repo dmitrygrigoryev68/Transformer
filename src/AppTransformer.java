@@ -14,7 +14,7 @@ public class AppTransformer {
 
         Function<String, String> transformationMethodToUpperCase = str -> str = str.toUpperCase();
         Function<String, String> transformationMethodToLowerCase = str -> str = str.toLowerCase();
-        Function<String, String> transformationMethodToStars = str -> str = "***************";
+        Function<String, String> transformationMethodToStars = str -> str = "*******";
 
 
         t.print(sentence, isWordLenght_3, transformationMethodToUpperCase);
