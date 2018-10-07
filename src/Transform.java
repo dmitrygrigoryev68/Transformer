@@ -6,17 +6,17 @@ import java.util.stream.Collectors;
 public class Transform {
 
 
-    private String transform(String sentence, Predicate<String> checkWordLenght, Function<String, String> transfornationMethod) {
+    private String transform(String sentence, Predicate<String> checkWordLenght, Function<String, String> transformationMethod) {
         String words[] = sentence.split(" ");
         List<String> list = Arrays.asList(words);
         return list
                 .stream()
                 .filter(checkWordLenght)
-                .map(s -> transfornationMethod.apply(s))
+                .map(s -> transformationMethod.apply(s))
                 .collect(Collectors.joining(", "));
     }
 
-    public void print(String s, Predicate<String> ch, Function<String, String> tr) {
-        System.out.println(transform(s, ch, tr));
+    public void print(String s, Predicate<String> check, Function<String, String> transform) {
+        System.out.println(transform(s, check, transform));
     }
 }
